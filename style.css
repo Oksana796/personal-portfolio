@@ -24,7 +24,7 @@
   color: #2c3842;
   padding: 16px 20px;
   font-size: 30px;
-  font-family: "Helvetica";
+  font-family: san-serif;
   font-weight: 500;
 }
 .navbar-link:hover {
@@ -79,6 +79,7 @@
   display: grid;
   grid-gap: 5rem;
   /*grid-template-columns: auto auto auto;*/
+
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   justify-content: center;
   width: 100%;
